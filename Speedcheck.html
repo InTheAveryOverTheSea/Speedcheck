@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speedcheck</title>
+  <!-- stylesheet link -->
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="javaforprototype.js" defer></script>
+
+</head>
+<body>
+<main>
+  <h1>Speedcheck</h1>
+  <div id="time">0 ms</div>
+
+<div id ="controls">
+
+  <!--Top buttons-->
+  <button id="startStopBtn">Start</button>
+  <button id="saveSplitBtn">Split</button>
+  <button id="endRunBtn">Save Run</button>
+</div>
+
+
+  <!--Headers for splits-->
+  <div class="card">
+  <h3>Current Run Splits</h3>
+  <ul id="currentRunList"></ul>
+  </div>
+
+<div class="card">
+  <h3>Personal Bests (Splits)</h3>
+  <ul id="pbList"></ul>
+</div>
+<div class="card">
+  <h3>Overall PB Run (Total Time)</h3>
+  <div id="bestRunDisplay"></div>
+</div>
+<!--Bottom buttons-->
+<div id="bottomcontrols">
+  <button id="exportBtn" class="bottombutton">Export Runs & PBs</button>
+  <button id="clearDataBtn" class="bottombutton">Clear Saved Data</button>
+</div>
+
+</main>
+</body>
+</html>
+
