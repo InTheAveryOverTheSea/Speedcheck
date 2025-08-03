@@ -34,13 +34,13 @@ ul {
   color: #ffffff;
 }
 li.Purple {
-  background-image: url('/Users/avery/Documents/Final year project/splits textures/greensplit.png');
+  background-image: url('./Splits textures/greensplit.png');
   background-color: #00ff2f;
   padding: 4px;
   border-radius: 4px;
 }
 li.Red {
-  background-image: url('/Users/avery/Documents/Final year project/splits textures/redsplit.png');
+  background-image: url('./Splits textures/redsplit.png');
   background-color: #ff0000;
   padding: 4px;
   border-radius: 4px;
