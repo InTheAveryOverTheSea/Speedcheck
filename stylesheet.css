@@ -58,16 +58,6 @@ color: #ffffff;
   font-weight: bold;
   color: rgb(0, 196, 0);
 }
-#linkToDemo {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-#linkToDemo button {
-  width: 100%;
-  max-width: 300px;
-}
 
 @media all and (max-width: 365px) {  
 #controls  {
@@ -131,3 +121,34 @@ margin: 0;
 margin: 0;
 }
 }
+/* Ensure main fills available height and allows flexbox positioning */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* center <main> horizontally */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes bottom content down */
+  flex-grow: 1;
+  height: 100%;
+}
+
+/* Bottom button styling and positioning */
+#linkToDemo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#linkToDemo button {
+  width: 100%;
+  max-width: 300px;
+}
+
