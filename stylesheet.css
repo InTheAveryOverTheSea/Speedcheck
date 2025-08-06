@@ -127,8 +127,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
-/* Let main fill the page and space out its children */
+/* Ensure the body is a block element */
 body {
   display: block;
   margin: 0;
