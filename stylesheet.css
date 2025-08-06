@@ -58,15 +58,17 @@ color: #ffffff;
   font-weight: bold;
   color: rgb(0, 196, 0);
 }
-.linkToDemo {
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-width: 40%;
-background-color: rgb(117, 195, 255);
-color: rgb(15, 52, 91);
+#linkToDemo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
+
+#linkToDemo button {
+  width: 100%;
+  max-width: 300px;
+}
+
 @media all and (max-width: 365px) {  
 #controls  {
 flex-direction: column;
