@@ -121,6 +121,10 @@ margin: 0;
 }
 }
 footer {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
 width: 40%;
 background-color: rgb(117, 195, 255);
 color: rgb(15, 52, 91);
