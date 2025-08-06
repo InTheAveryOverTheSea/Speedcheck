@@ -121,8 +121,7 @@ margin: 0;
 }
 }
 footer {
-  text-align: center;
-  margin-top: 2rem;
-  color: #ffffff;
-  font-size: 0.9em;
+width: 40%;
+background-color: rgb(117, 195, 255);
+color: rgb(15, 52, 91);
 }
