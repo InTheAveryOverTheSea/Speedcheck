@@ -58,6 +58,15 @@ color: #ffffff;
   font-weight: bold;
   color: rgb(0, 196, 0);
 }
+.linkToDemo {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 40%;
+background-color: rgb(117, 195, 255);
+color: rgb(15, 52, 91);
+}
 @media all and (max-width: 365px) {  
 #controls  {
 flex-direction: column;
@@ -119,13 +128,4 @@ margin: 0;
 > ul {
 margin: 0;
 }
-}
-footer {
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-width: 40%;
-background-color: rgb(117, 195, 255);
-color: rgb(15, 52, 91);
 }
